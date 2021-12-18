@@ -1,0 +1,101 @@
+html { 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: animacionDeFondo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+strong {
+    color:rgb(236, 197, 169);
+    padding: 5px;
+    background-color:rgba(214, 128, 15, 0.877);
+    animation-name: subrayado;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+header {
+    background-color:brown;
+    color:antiquewhite;
+    padding: 3rem 2rem;
+
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+.container {
+    width: 430px;
+    margin: 0 auto;
+}
+section article {
+    transition: all 0.3 seg ease;
+    background-color:beige;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    
+}
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.5);
+}
+section article h2, section article p {
+    margin: 1rem;
+}
+footer {
+    background-color:rgb(73, 16, 16);
+    padding: 3rem;
+    color:beige
+}
+footer section {
+    float:left;
+}
+footer p {
+    margin:0
+}
+footer a {
+    transition: color 0.3s ease;
+    background-color:antiquewhite;
+    text-decoration: none;
+}
+footer a:hover {
+    color:chocolate;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: solid 1px rgb(8, 138, 138);
+    padding: 5px;
+}
+th {
+    background-color:rgb(197, 81, 81);
+    color:black;
+    text-align: left;
+}
+tr:hover {
+    background-color:rgb(199, 122, 67);
+    cursor: pointer;
+
+}
+ul {
+    background-color:rgb(143, 143, 80);
+
+}
+
+div p {
+    background-color: rgb(78, 78, 12);
+}
+div {
+    background-color: black;
+}
+p {
+    background-color:rgb(160, 85, 85)
+}
+
